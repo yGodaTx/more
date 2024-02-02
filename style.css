@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "more";
+    src: url(./Valentine\ Cute.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url('back.jpeg');
+    height: 3820px;
+    width: 100%;
+    position: absolute;
+    filter: brightness(0.6);
+    z-index: -1;
+}
+
+.topbar {
+    height: 150px;
+    background-color: rgba(139, 161, 16, 0.795);
+    background-image: url('top.png');
+    background-position-y: -150px;
+    background-size: cover;
+
+}
+
+.logoTitle {
+    font-size: 40px;
+    font-family: "more";
+    color: rgb(10, 107, 7);
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-style: italic;
+
+}
+
+.logoSub {
+    font-size: 30px;
+    font-family: "more";
+    color: rgb(10, 107, 7);
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    font-style: italic;
+}
+
+.menu {
+    text-align: center;
+    background-color: rgb(170, 170, 31);
+    padding: 5px;
+}
+
+.bottoum {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container {
+    max-width: 990px;
+    margin: auto;
+    padding: 30px;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'more';
+}
+
+.sub {
+    color: white;
+    font-size: 20px;
+    font-family: 'more';
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.content {
+    background-color: #eeeeee93;
+    border-radius: 10px;
+    border: 7px solid rgb(170, 170, 31);
+}
+
+p {
+    font-size: 20px;
+    padding: 30px;
+    line-height: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.subtitles {
+    padding: 30px;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+footer {
+    height: 150px;
+    background-color: rgba(139, 161, 16, 0.795);
+    background-image: url('top.png');
+    background-position-y: -150px;
+    background-size: cover;
+}
+
+.yt {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(170, 170, 31);
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 40px;
+    position: relative;
+    left: 100px;
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Galery */
+.photos {
+    width: 395px;
+    height: 480px;
+    border-radius: 30px;
+}
+
+.galery {
+    padding: 20px;
+    display: inline-block;
+
+}
+
+@media (max-width:480px) {
+    .background {
+        background-image: url('back.jpeg');
+        height: 10320px;
+        width: 100%;
+        position: absolute;
+        filter: brightness(0.6);
+        z-index: -1;
+    }
+
+    .yt {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(170, 170, 31);
+        font-size: 20px;
+        padding: 15px;
+        border-radius: 40px;
+        position: relative;
+        left: 50px;
+        width: 50%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    /* Galery */
+    .photos {
+        width: 200px;
+        height: 240px;
+        border-radius: 20px;
+
+    }
+
+    .galery {
+        margin: auto;
+        padding: 5px;
+
+    }
+}
+
+@media (max-width:600px) {
+    .background {
+        background-image: url('back.jpeg');
+        height: 12170px;
+        width: 100%;
+        position: absolute;
+        filter: brightness(0.6);
+        z-index: -1;
+    }
+
+    .yt {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(170, 170, 31);
+        font-size: 20px;
+        padding: 15px;
+        border-radius: 40px;
+        position: relative;
+        left: 50px;
+        width: 50%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    /* Galery */
+    .photos {
+        width: 184px;
+        height: 250px;
+        border-radius: 20px;
+
+    }
+
+    .galery {
+        margin: auto;
+        padding: 5px;
+
+    }
+
+    .logoTitle {
+        font-size: 30px;
+        font-family: "more";
+        color: rgb(10, 107, 7);
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        font-style: italic;
+
+    }
+
+    .logoSub {
+        font-size: 20px;
+        font-family: "more";
+        color: rgb(10, 107, 7);
+        position: absolute;
+        left: 80px;
+        top: 80px;
+        font-style: italic;
+    }
+
+    .title {
+        color: rgb(255, 255, 255);
+        font-size: 26px;
+        font-family: 'more';
+    }
+
+}

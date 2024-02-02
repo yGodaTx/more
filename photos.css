@@ -1,0 +1,8 @@
+.background{
+    background-image: url('back.jpeg');
+    height: 4800px;
+    width: 100%;
+    position: absolute;
+    filter:brightness(0.6);
+    z-index: -1;
+ }
